@@ -1,1 +1,7 @@
 node_modules
+backups
+docs
+*.cmd
+*.sh
+package-lock.json
+npm-debug.log
