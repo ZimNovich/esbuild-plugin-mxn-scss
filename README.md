@@ -1,24 +1,24 @@
-# sassEs
+# esbuild-plugin-mxn-scss
 
-esbuild sass plugin
+Esbuild plugin for compiling SASS / SCSS
 
 ## Usage
 
 Install the package using
 **npm**
-`npm i essass`
+`npm i esbuild-plugin-mxn-scss`
 or
 **yarn**
-`yarn add essass`
+`yarn add esbuild-plugin-mxn-scss`
 
 import the package to esbuild bundle.js and use as plugin
 
 ```javascript
-let  sassEs = require("essass");
+const esbuildSass = require("esbuild-plugin-mxn-scss");
 require("esbuild")
 .build({
 	...
-	plugins: [sassEs],
+	plugins: [esbuildSass],
 	...
 })
 .catch(() =>  process.exit(1));

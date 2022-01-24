@@ -1,23 +1,43 @@
 {
-  "name": "essass",
-  "version": "1.0.12",
-  "description": "esbuild sass compailer",
-  "main": "index.js",
-  "dependencies": {
-    "sass": "^1.32.5"
-  },
-  "devDependencies": {},
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/fayismahmood/sassEs.git"
-  },
-  "author": "Fayis Mahmood",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/fayismahmood/sassEs/issues"
-  },
-  "homepage": "https://github.com/fayismahmood/sassEs#readme"
+    "name": "esbuild-plugin-mxn-scss",
+    "main": "esbuild-plugin-mxn-scss.js",
+    "description": "Esbuild plugin for compiling SASS / SCSS",
+    "version": "1.0.0",
+    "homepage": "https://github.com/ZimNovich/esbuild-plugin-mxn-scss",
+    "license": "MIT",
+    "author": {
+        "name": "Ilya Zimnovich",
+        "email": "zimnovich@gmail.com"
+    },
+    "contributors": [
+        {
+            "name": "Fayis Mahmood"
+        },
+        {
+            "name": "Ilya Zimnovich",
+            "email": "zimnovich@gmail.com"
+        }
+    ],
+    "keywords": [
+        "esbuild",
+        "esbuild-plugin",
+        "plugin",
+        "css",
+        "sass",
+        "scss"
+    ],
+    "dependencies": {
+        "sass": "^1.49.0"
+    },
+    "deprecated": false,
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/ZimNovich/esbuild-plugin-mxn-scss"
+    },
+    "bugs": {
+        "url": "https://github.com/ZimNovich/esbuild-plugin-mxn-scss/issues"
+    },
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    }
 }
