@@ -1,9 +1,9 @@
 {
-    "name": "esbuild-plugin-mxn-scss",
-    "main": "esbuild-plugin-mxn-scss.js",
+    "name": "esbuild-plugin-scss",
+    "main": "esbuild-plugin-scss.js",
     "description": "Esbuild plugin for compiling SASS / SCSS",
     "version": "1.0.0",
-    "homepage": "https://github.com/ZimNovich/esbuild-plugin-mxn-scss",
+    "homepage": "https://github.com/ZimNovich/esbuild-plugin-scss",
     "license": "MIT",
     "author": {
         "name": "Ilya Zimnovich",
@@ -32,10 +32,10 @@
     "deprecated": false,
     "repository": {
         "type": "git",
-        "url": "https://github.com/ZimNovich/esbuild-plugin-mxn-scss"
+        "url": "https://github.com/ZimNovich/esbuild-plugin-scss"
     },
     "bugs": {
-        "url": "https://github.com/ZimNovich/esbuild-plugin-mxn-scss/issues"
+        "url": "https://github.com/ZimNovich/esbuild-plugin-scss/issues"
     },
     "scripts": {
         "test": "echo \"Error: no test specified\" && exit 1"
